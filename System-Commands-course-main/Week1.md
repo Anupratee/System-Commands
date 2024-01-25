@@ -27,7 +27,7 @@
   - `rm -i` prompts before every removal (it can be set using `alias rm="rm -i"`)
   - works only with write permission
   - use `-d` for removing directories
-  - `rm -r mydirectory`  
+  - `rm -r mydirectory` will delete files in the dir and then delete the dir 
 * `mv`
   - move , rename 
   - `mv file1 ..` (moves file to parent dir)
