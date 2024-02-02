@@ -209,8 +209,8 @@
   - i : interactive mode
   - m : job control enabled (can be taken to bg or fg)
   - H : !style history substitution enabled
-  - s : commands are read from stdin
-  - c : commands are read from arguments
+  - s : commands are read from stdin (standard input, keyboard)
+  - c : commands are read from arguments 
 
 ### Linux Process Management
 * `sleep` command to create processes
