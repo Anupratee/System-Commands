@@ -89,19 +89,19 @@
   - displays what type of command it is 
   - type type shows that it is a 'shell built in' being offered from the shell and not the os
   - type ls shows that it is aliased with some option. which ls shows that it is coming from os because there is an executable available.
-    
- ### Multiple Arguments
+
+### Multiple Arguments
  * Recap : Arguments and Options
-  - Options are enhanced features of the command
-  - Arguments are specific names of files or directories 
- * Second arrument behaviour and interpratation of last argument should be seen in the man pages
+   - Options are enhanced features of the command
+   - Arguments are specific names of files or directories 
+ * Second argument behaviour and interpretation of last argument should be seen in the man pages
  * Recursion is assumed for `mv` and not `cp`
-  - recursion is assumed for some commands and should be explicitly stated in others
-  - For copy command recurssion is not assumed
-  - `cp dir1 dir2` need not work. dir1 has 2 files in it.
-  - `cp -r dir1 dir2` works - recurssion is specified explicitly.
-  - `mv dir1 dir3` works - it just renames the directory.
- * `touch file1 file2 file3` creates all 3 files in one go with identical timestamp.
+   - recursion is assumed for some commands and should be explicitly stated in others
+   - For copy command recursion is not assumed
+   - `cp dir1 dir2` need not work. dir1 has 2 files in it.
+   - `cp -r dir1 dir2` works - recursion is specified explicitly.
+   - `mv dir1 dir3` works - it just renames the directory.
+ * `touch file1 file2 file3` creates all 3 files in one go with identical timestamps.
  
  ### Links (Hard Links and Soft Links)
 * Can determine whether a link is HL or SL by looking at the Inode numbers
