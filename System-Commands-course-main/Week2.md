@@ -91,7 +91,7 @@
   - type ls shows that it is aliased with some option. which ls shows that it is coming from os because there is an executable available.
     
  ### Multiple Arguments
- * ##### Recap : Arguments and Options
+ * Recap : Arguments and Options
   - Options are enhanced features of the command
   - Arguments are specific names of files or directories 
  * Second arrument behaviour and interpratation of last argument should be seen in the man pages
