@@ -89,6 +89,7 @@
   - displays what type of command it is 
   - type type shows that it is a 'shell built in' being offered from the shell and not the os
   - type ls shows that it is aliased with some option. which ls shows that it is coming from os because there is an executable available.
+    
  ### Multiple Arguments
  * ##### Recap : Arguments and Options
   - Options are enhanced features of the command
