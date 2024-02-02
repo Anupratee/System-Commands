@@ -71,8 +71,8 @@
   - ls -l /usr/bin/more shows that the command takes 43KB
 
 ### Knowing more commands
-* `man`
-* `which`
+* `man` : man shows you what a command does
+* `which` : will show the location of the command
 * `apropos`
   - For a keyword it shows you all the commands which have that keyword in the description
   - Used to discover new commands
@@ -82,7 +82,7 @@
 * `info`
   - Allows browsing through commands using the cursor 
   - Can go back using *<* or 'shift'+','
-* `whatis`
+* `whatis` : brief description of the command
 * `help`
   - displays keywords reserved for the shell being run
 * `type`
