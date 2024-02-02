@@ -213,41 +213,6 @@
   - s : commands are read from stdin (standard input, keyboard)
   - c : commands are read from arguments 
 
-### Linux Process Management
-* `sleep` command to create processes
-  - usage : `sleep 3` for 3 seconds
-* If you have a command running in the Foreground for a long time but you need to write something else on the command line :
-  - kill the process
-  - suspend the process
-  - run it in the background `coproc sleep 10` - When complete it gives a message.
-* `coproc` is a shell keyword. No manual entry for it.
-  - To learn more about a shell key word use `help coproc`
-  - a running background process can be killed by process id (use : `ps --forest` to find PID and `kill -9 <pid>`)
-* A command followed by an `&` means that it is being assigned to the background
-  - Executing the command `fg` will bring it back to foreground
-* `jobs` is a shell builtin - it lists active jobs in the current shell
-* `top` shows processes taking up maximum cpu and memory. Exit gracefully by pressing Q
-* `Ctrl`+`z` suspends a process.
-  - Suspended processes can be seen with `jobs`
-  - Can be brought back to foreground using `fg` command
-* `Ctrl`+`c` kills a process
-* `fg` is a shell builtin
-* `bash -c "echo \$-"` creates a child shell, gets the value of `echo $-`, gives the output to the parent shell
-  - `bash -c "echo \$-; ps --forest;"` - multiple commands separated by ;
-  - `bash -c "echo \$$ ; ps --forest ; exit 300"` : custom error code mod 256 = 44
-* `history` displays a list of commands that have been run on that computer
-  - `!n` executes command line no n displayed by `history`
-  - useful for repeating long commands
-  - The `H` flag in bash means the history is being recorded
-* Brace expansion option `B`
-  - if you type `echo {a..z}` character in the ASCII sequence will be expanded.
-  - In combination `echo {a..d}{a..d}` will display all possible combinations of the 2 alphabets.
-  - `*` exapnds to all the files in the current directory
-  - `echo D*` lists all the files begining with D.
-  - Examples :
-    - `mkdir {1..12}{A..E}` or `rmdir {1..12}{A..E}` or `touch {1..12}{A..E}/{1..40}`
-* `;` acts as a separator between individual commands eg : `echo hello ; ls`
-
 ### Shell Variables - Part 1
 
 * Creation, inspection, modification, lists
@@ -497,6 +462,41 @@
       - File names in a shell variable 
         - ``myfiles=(`ls`) ``
         - `echo ${myfiles[@]}`
+
+### Linux Process Management
+* `sleep` command to create processes
+  - usage : `sleep 3` for 3 seconds
+* If you have a command running in the Foreground for a long time but you need to write something else on the command line :
+  - kill the process
+  - suspend the process
+  - run it in the background `coproc sleep 10` - When complete it gives a message.
+* `coproc` is a shell keyword. No manual entry for it.
+  - To learn more about a shell key word use `help coproc`
+  - a running background process can be killed by process id (use : `ps --forest` to find PID and `kill -9 <pid>`)
+* A command followed by an `&` means that it is being assigned to the background
+  - Executing the command `fg` will bring it back to foreground
+* `jobs` is a shell builtin - it lists active jobs in the current shell
+* `top` shows processes taking up maximum cpu and memory. Exit gracefully by pressing Q
+* `Ctrl`+`z` suspends a process.
+  - Suspended processes can be seen with `jobs`
+  - Can be brought back to foreground using `fg` command
+* `Ctrl`+`c` kills a process
+* `fg` is a shell builtin
+* `bash -c "echo \$-"` creates a child shell, gets the value of `echo $-`, gives the output to the parent shell
+  - `bash -c "echo \$-; ps --forest;"` - multiple commands separated by ;
+  - `bash -c "echo \$$ ; ps --forest ; exit 300"` : custom error code mod 256 = 44
+* `history` displays a list of commands that have been run on that computer
+  - `!n` executes command line no n displayed by `history`
+  - useful for repeating long commands
+  - The `H` flag in bash means the history is being recorded
+* Brace expansion option `B`
+  - if you type `echo {a..z}` character in the ASCII sequence will be expanded.
+  - In combination `echo {a..d}{a..d}` will display all possible combinations of the 2 alphabets.
+  - `*` exapnds to all the files in the current directory
+  - `echo D*` lists all the files begining with D.
+  - Examples :
+    - `mkdir {1..12}{A..E}` or `rmdir {1..12}{A..E}` or `touch {1..12}{A..E}/{1..40}`
+* `;` acts as a separator between individual commands eg : `echo hello ; ls`
 
 ### REPLIT CODE WITH US
 [Link to Replit](https://replit.com/team/22t1SystemCommand)
