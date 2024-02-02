@@ -5,6 +5,7 @@
 * The root folder / is its own parent
   - ie : if you do `cd ..` within the root directory you stay in the same directory.
 * Options / Flags can be written in multiple combinations
+  - `ls -ld level1`  shows the permissions of level1 directory, instead of going inside it
   - `ls -l level1 -di`
   - `ls -d level1 -il`
   - `ls level1 -ldi`
