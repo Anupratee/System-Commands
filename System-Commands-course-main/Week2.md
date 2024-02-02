@@ -170,11 +170,11 @@
 * `echo $HOME` prints values of variables
   - By convention every shell variable starts with a Dollar
 * **Commonly used shell variables**
-  - `$USERNAME` eg : `echo "User logged into system now is : $USERNAME"`
-  - `$HOME`
-  - `$HOSTNAME`
-  - `$PWD`
-  - `$PATH` - variable contains a list of directories which will be searched when you type a command. When ever you type a command the system scans these paths from left to right to see if the command is in the directory.
+  - `$USERNAME` eg : `echo "User logged into the system now is : $USERNAME"`
+  - `$HOME` : Value of the home directory
+  - `$HOSTNAME` : Name of the machine
+  - `$PWD` : Value of Present Working Directory
+  - `$PATH` - variable contains a list of directories that will be searched when you type a command. Whenever you type a command the system scans these paths from left to right to see if the command is in the directory.
 * Commands like `printenv` , `env` , `set` to see variables that are already defined
   - `printenv` displays all the shell variables defined in the shell that you are running.
   - `env` gives the same output
