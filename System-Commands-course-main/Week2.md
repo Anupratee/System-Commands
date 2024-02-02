@@ -177,6 +177,7 @@
   - `$PATH` - variable contains a list of directories that will be searched when you type a command. Whenever you type a command the system scans these paths from left to right to see if the command is in the directory.
 * Commands like `printenv` , `env` , `set` to see variables that are already defined
   - `printenv` displays all the shell variables defined in the shell that you are running.
+       - `printenv HOME` will display the value of the variable $HOME, there's no need to use $ when using printenv
   - `env` gives the same output
   - `set` displays some functions defined to interpret what you are typing on the command line.
 * **Special Shell Variables**
