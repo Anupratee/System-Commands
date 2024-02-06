@@ -275,6 +275,7 @@
 * Keep matching pattern
   - `echo ${myvar%pattern}` - matches once
   - `echo ${myvar%%pattern}` - matches maximum possible
+  - Whatever is matching will be displayed
 * Replace matching pattern
   - `echo ${myvar/pattern/string}` - match once and replace with string
   - `echo ${myvar//pattern/string}` - match max possible and replace with string
