@@ -220,7 +220,8 @@
   - `myvar="value string"`
     - `myvar` can't start with a number, but you can mix alphanumeric and `_`
     - No space around the `=`
-    - `"value string"` is the number,string or `command`. Output of a command can be assigned to myvar by enclosing the command in back-ticks.
+    - `"value string"` is the number,string or `command`.
+    - Output of a command can be assigned to myvar by enclosing the command in back-ticks.
 * Exporting a variable
   - `export myvar="value string"` or
   - `myvar="value string" ; export myvar`
