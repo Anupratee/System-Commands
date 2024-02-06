@@ -421,7 +421,7 @@
         - `echo ${mydate^^}` changes all characters to uppercase
      - Restricting values that can be assigned to shell variables using `declare`
         - `declare` is a shell builtin
-        - `+` to **unset** a restriction and `-` to **set** it  (Note : counterintutuve )
+        - `+` to **unset** a restriction and `-` to **set** it  (Note : counterintuitive )
         - `-a` for indexed arrays (need not be ordered indexes)
         - `-A` for associative arrays (dictionaries)
         - `-i` for integers
