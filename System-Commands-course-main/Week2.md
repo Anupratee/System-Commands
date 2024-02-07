@@ -462,7 +462,7 @@
         - `echo ${!hash[@]}` to get indices
         - `echo ${hash["mm12b001"]}`
       - File names in a shell variable 
-        - ``myfiles=(`ls`) ``
+        - ``myfiles=(`ls`) `` stores an array in myfiles
         - `echo ${myfiles[@]}`
 
 ### Linux Process Management
