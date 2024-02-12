@@ -224,7 +224,8 @@
     - Output of a command can be assigned to myvar by enclosing the command in back-ticks.
 * Exporting a variable
   - `export myvar="value string"` or
-  - `myvar="value string" ; export myvar`
+  - `myvar="value string" ; export myvar` or
+  - `declare myvar="value string"`
   - This makes the value of the variable available to a shell that is spawned by the current shell.
 * Using variable values
   - `echo $myvar`
