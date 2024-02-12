@@ -225,7 +225,7 @@
 * Exporting a variable
   - `export myvar="value string"` or
   - `myvar="value string" ; export myvar` or
-  - `declare myvar="value string"`
+  - `declare -x myvar="value string"`
   - This makes the value of the variable available to a shell that is spawned by the current shell.
 * Using variable values
   - `echo $myvar`
