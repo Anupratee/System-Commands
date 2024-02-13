@@ -90,7 +90,7 @@
       - Example : `ls $HOME /blah | tee file1 file2 | wc -l` - Here  `tee` keeps copy of output in a file and also sends output to `wc -l` for further processing.
       - Example : `ls $HOME /blah 2> /dev/null | tee file1 file2 | wc -l` to supress errors. Note location of `2>` is since the error is generated there.
 
-#### Software Management
+### Software Management
 * Using Package Management Systems 
   - Tools for installing, updating, removing and managing software
   - Install new / updated software across network
