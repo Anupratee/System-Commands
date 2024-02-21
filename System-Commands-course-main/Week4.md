@@ -1,6 +1,6 @@
 ### Week 4 Notes
 
-#### Pattern Matching
+#### Pattern Matching 01
 * Regular Expressions `regex` and `grep` commands
 	- POSIX standard
 		- IEEE 1003.1-2001 IEEE Standard for IEEE Information Technology – Portable Operating System Interface (POSIX(TM))
@@ -144,8 +144,8 @@
 	 	-  `cat names.txt | egrep '(Anu|Raman)'` matches lines containing 'Anu' or 'Raman'. Length of string on both sides of pipe need not be the same.
 	 	-  `cat names.txt | egrep '(am|an)$'` matches lines containing 'am' or 'an' at the end.
 
-___
-4.4
+#### Pattern Matching 02
+
 * ### More Examples using grep and egrep
 	- Get package names that are exactly 4 characters long
 		- `dpkg-query -W -f'${Section} ${binary:Package}\n' | egrep ' .{4}$'`
