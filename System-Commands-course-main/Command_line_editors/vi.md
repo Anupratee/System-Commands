@@ -12,15 +12,15 @@
 * In the insert mode, what you type will go into the text buffer. 
 * `i` `o` and `a` start the insert mode 
 	- `i` will insert characters at the current position of the cursor
-	- `I` will insert characters at the begining of the line where the cursor is present
+	- `I` will insert characters at the beginning of the line where the cursor is present
 	- `o` will insert a new line below the current line 
 	- `O` will append (open) a new line above the current line 
 	- `a` will append after the cursor
 	- `A` will append at the end of the line 
 * The `ex` mode is enabled by pressing the `:`. This mode allows one to enter `ed`/`ex` line editor commands.
-* What you press will be interpreted differently depending on which mode you are in. (Always watch out in the bottom of the screen whether you are in isert mode or command mode)
-  - Backspace will delete only in the insert mode. In the command mode it will move left.
-Space in the insert mode will insert a space. In the command mode it will take the cursor to the right.
+* What you press will be interpreted differently depending on which mode you are in. (Always watch out at the bottom of the screen whether you are in insert mode or command mode)
+  - Backspace will delete only in the insert mode. In the command mode, it will move left.
+Space in the insert mode will insert a space. In the command mode, it will take the cursor to the right.
 ___
 #### vi help
 
@@ -31,7 +31,7 @@ ___
 | `:w`  | write out  |
 | `:x`  | write out and quit  |
 | `:wq`  | write out and quit  |
-| `:q`  | quit (if write out is over)  |
+| `:q`  | quit (if write-out is over)  |
 | `:q!`  | ignore changes and quit  |
 
 ##### Moving around in vi
@@ -79,9 +79,9 @@ ___
 |---|---|
 |	`r`	|	replace single char under cursor	|
 |	`R`	|	replace chars from cursor till Esc	|
-|	`cw`	|	change word under cursor, from current char till Esc	|
+|	`cw`	|	change word under the cursor, from current char till Esc	|
 |	`cNw`	|	change N words, from current char till Esc	|
-|	`C`	|	change chars in current line till Esc	|
+|	`C`	|	Change chars in the current line till Esc	|
 |	`cc`	|	change current line till Esc	|
 |	`Ncc`	|	change next N lines, starting from current, till Esc	|
 
@@ -93,7 +93,7 @@ ___
 |	`Nx`	|	delete N chars from cursor	|
 |	`dw`	|	delete one word, from the char under cursor	|
 |	`dNw`	|	delete N words, from the char under cursor	|
-|	`D`	|	Delete rest of the line, from the char under cursor	|
+|	`D`	|	Delete the rest of the line, from the char under cursor	|
 |	`dd`	|	delete current line	|
 |	`Ndd`	|	delete next N lines, starting from current	|
 
@@ -108,7 +108,7 @@ ___
 
 * `y` is for yanking.
 * Copy and paste : press `5``y``y` to copy 5 lines and `p` to paste them. `y` and `enter` is the same as pressing `2``y``y`.
-* `1,5s/line/LINE/` to substitute `LINE` for `line` on the first 5 lines. First occurance.
+* `1,5s/line/LINE/` to substitute `LINE` for `line` on the first 5 lines. First occurrence.
 * `u` to undo change
 * `1,5s/line/LINE/g` to substitute `LINE` for `line` on the first 5 lines multiple times.
 
@@ -118,8 +118,8 @@ ___
 |---|---|
 |	`/string`	|	search forward for string	|
 |	`?string`	|	Search backward for string	|
-|	`n`	|	move cursor to next occurance of string	|
-|	`N`	|	move to previous occurance of string	|
+|	`n`	|	move cursor to next occurrence of string	|
+|	`N`	|	move to the previous occurrence of string	|
 
 - `:se nu` to set line numbers
 - `:se nonu` to unset line numbers
