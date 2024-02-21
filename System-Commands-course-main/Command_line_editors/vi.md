@@ -6,6 +6,7 @@
   - insert mode
     - `i` `o` `a`
     - `I` `O` `A`
+    - i will insert characters from current position of cursor, o will insert new file, a will append
   - ex mode
     - `:`
 * Command mode is open by default when you open the file
