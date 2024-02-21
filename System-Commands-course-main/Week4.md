@@ -192,7 +192,7 @@
 * ### Own experiments using regex
 	- Get strictly alphanumeric words
 		- `cat test.txt | egrep '\b([a-z]+[0-9]+|[0-9]+[a-z]+)\b'`
-#### Command Line Editors
+## Command Line Editors
 * Working with text files in the terminal
 * Editors
   - Line Editors (Present in almost every flavour of UNIX / GNU Linux)
