@@ -1,6 +1,6 @@
 # Week 1 Notes 
 
-## Lecture 1.2 Command Line Environment
+## Lecture 1.2 Command Line Environment & 1.3 Simple Commands in Linux-1
 
 ### Terminal Emulators 
 * Terminal
