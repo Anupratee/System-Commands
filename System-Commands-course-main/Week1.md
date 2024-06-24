@@ -1,4 +1,6 @@
-## Week 1 Notes 
+# Week 1 Notes 
+
+## Lecture 1.2 Command Line Environment
 
 ### Terminal Emulators 
 * Terminal
