@@ -35,8 +35,8 @@
 |	`21`	|	`ftp`	|	File transfer	|
 |	`22`	|	`ssh`	|	Secure Shell	|
 |	`25`	|	`smtp`	|	Simple Mail Transfer Protocol	|
-|	`80`	|	`http`	|	Hypertext Tranfer Protocol	|
-|	`443`	|	`https`	|	Secure Hypertext Tranfer Protocol	|
+|	`80`	|	`http`	|	Hypertext Transfer Protocol	|
+|	`443`	|	`https`	|	Secure Hypertext Transfer Protocol	|
 |	`631`	|	`cups`	|	Common Unix Printing System	|
 |	`3306 `	|	`mysql`	|	MySQL database	|
 
